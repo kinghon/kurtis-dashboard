@@ -2,8 +2,8 @@ const cron = require('node-cron');
 const { runScraper } = require('./scraper');
 
 function setupCron(db) {
-  // Run daily at 6:00 AM
-  cron.schedule('0 6 * * *', async () => {
+  // Run every 6 hours
+  cron.schedule('0 */6 * * *', async () => {
     console.log('[cron] Running scheduled scrape...');
     try {
       await runScraper(db);
@@ -12,7 +12,7 @@ function setupCron(db) {
     }
   });
 
-  console.log('[cron] Scheduled daily scrape at 6:00 AM');
+  console.log('[cron] Scheduled scrape every 6 hours');
 
   // Run on startup if last check was > 23 hours ago
   const row = db.prepare(
@@ -23,7 +23,7 @@ function setupCron(db) {
   if (row) {
     const lastCheck = new Date(row.checked_at + 'Z');
     const hoursAgo = (Date.now() - lastCheck.getTime()) / (1000 * 60 * 60);
-    if (hoursAgo < 23) {
+    if (hoursAgo < 6) {
       console.log(`[cron] Last check was ${hoursAgo.toFixed(1)}h ago — skipping startup scrape.`);
       shouldRun = false;
     }
