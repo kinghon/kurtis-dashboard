@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANA First Class Tracker</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    header h1 span {
+      color: #4a9eff;
+    }
+
+    .last-updated {
+      font-size: 13px;
+      color: #666;
+      margin-top: 6px;
+    }
+
+    .context-banner {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      border: 1px solid #2a2a4a;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+      text-align: center;
+      font-size: 14px;
+      color: #a0a0c0;
+    }
+
+    .context-banner strong {
+      color: #e74c8b;
+    }
+
+    .context-banner .points {
+      color: #4ae7a0;
+      font-weight: 600;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      padding: 10px 24px;
+      border: 1px solid #333;
+      background: #1a1a24;
+      color: #ccc;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+
+    .btn:hover {
+      background: #252535;
+      border-color: #4a9eff;
+      color: #fff;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-primary {
+      background: #1a3a5c;
+      border-color: #4a9eff;
+      color: #4a9eff;
+    }
+
+    .panels {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 768px) {
+      .panels { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: #111118;
+      border: 1px solid #1e1e2e;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .panel-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid #1e1e2e;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .panel-header h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .panel-header .badge {
+      font-size: 11px;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .badge-blue {
+      background: rgba(74, 158, 255, 0.15);
+      color: #4a9eff;
+    }
+
+    .badge-purple {
+      background: rgba(160, 100, 255, 0.15);
+      color: #a064ff;
+    }
+
+    .panel-body {
+      padding: 12px;
+    }
+
+    .flight-row {
+      display: flex;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      transition: background 0.15s;
+    }
+
+    .flight-row:hover {
+      background: #1a1a28;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 14px;
+      flex-shrink: 0;
+    }
+
+    .dot-available {
+      background: #22c55e;
+      box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+    }
+
+    .dot-unavailable {
+      background: #ef4444;
+      box-shadow: 0 0 8px rgba(239, 68, 68, 0.3);
+    }
+
+    .flight-info {
+      flex: 1;
+    }
+
+    .flight-route {
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .flight-detail {
+      font-size: 12px;
+      color: #777;
+      margin-top: 2px;
+    }
+
+    .flight-class {
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    .class-suite {
+      background: rgba(255, 180, 50, 0.15);
+      color: #ffb432;
+    }
+
+    .class-first {
+      background: rgba(140, 140, 180, 0.12);
+      color: #8888aa;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #555;
+    }
+
+    .loading::after {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #333;
+      border-top-color: #4a9eff;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 12px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ANA <span>First Class</span> Tracker</h1>
+      <div class="last-updated" id="lastUpdated">Loading...</div>
+    </header>
+
+    <div class="context-banner">
+      Book via <strong>Virgin Atlantic Flying Club</strong> &mdash;
+      <span class="points">72,500 pts</span> (Western US &rarr; Japan)
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-primary" id="refreshBtn" onclick="triggerScrape()">Refresh Availability</button>
+    </div>
+
+    <div class="panels">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>355 Days Out</h2>
+          <span class="badge badge-blue" id="primaryDate"></span>
+        </div>
+        <div class="panel-body" id="panel355">
+          <div class="loading">Loading</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-header">
+          <h2>14-Day Window</h2>
+          <span class="badge badge-purple">Next 7–14 days</span>
+        </div>
+        <div class="panel-body" id="panel14">
+          <div class="loading">Loading</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      ANA First Class Tracker &middot; Data from United.com award search
+    </footer>
+  </div>
+
+  <script>
+    const SUITE_FLIGHTS = ['NH 175', 'NH 7', 'NH 9'];
+
+    function formatDateShort(dateStr) {
+      const d = new Date(dateStr + 'T00:00:00');
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function get355Date() {
+      const d = new Date();
+      d.setDate(d.getDate() + 355);
+      return d.toISOString().split('T')[0];
+    }
+
+    function get14DayRange() {
+      const dates = [];
+      for (let i = 7; i <= 14; i++) {
+        const d = new Date();
+        d.setDate(d.getDate() + i);
+        dates.push(d.toISOString().split('T')[0]);
+      }
+      return dates;
+    }
+
+    function renderFlightRow(item) {
+      const dotClass = item.available ? 'dot-available' : 'dot-unavailable';
+      const isSuite = SUITE_FLIGHTS.includes(item.flight_number);
+      const classLabel = isSuite ? 'The Suite' : 'Lie-Flat';
+      const classStyle = isSuite ? 'class-suite' : 'class-first';
+
+      return `
+        <div class="flight-row">
+          <div class="status-dot ${dotClass}"></div>
+          <div class="flight-info">
+            <div class="flight-route">${item.route}</div>
+            <div class="flight-detail">${item.flight_number} &middot; ${formatDateShort(item.date_of_travel)}</div>
+          </div>
+          <span class="flight-class ${classStyle}">${classLabel}</span>
+        </div>
+      `;
+    }
+
+    async function loadData() {
+      try {
+        const res = await fetch('/api/availability');
+        const json = await res.json();
+        if (!json.ok) throw new Error(json.error);
+
+        const data = json.data;
+        const target355 = get355Date();
+        const range14 = get14DayRange();
+
+        // Set the 355 date badge
+        document.getElementById('primaryDate').textContent = formatDateShort(target355);
+
+        // Get latest check per route+date combo
+        const latestMap = new Map();
+        for (const row of data) {
+          const key = `${row.route}|${row.date_of_travel}`;
+          if (!latestMap.has(key)) {
+            latestMap.set(key, row);
+          }
+        }
+
+        // 355-day panel: filter for target date
+        const items355 = [];
+        for (const [, row] of latestMap) {
+          if (row.date_of_travel === target355) {
+            items355.push(row);
+          }
+        }
+
+        const panel355 = document.getElementById('panel355');
+        if (items355.length === 0) {
+          panel355.innerHTML = '<div class="empty-state">No data yet. Hit Refresh to check availability.</div>';
+        } else {
+          // Sort: available first, then by route
+          items355.sort((a, b) => b.available - a.available || a.route.localeCompare(b.route));
+          panel355.innerHTML = items355.map(renderFlightRow).join('');
+        }
+
+        // 14-day panel: filter for 7-14 day range
+        const items14 = [];
+        for (const [, row] of latestMap) {
+          if (range14.includes(row.date_of_travel)) {
+            items14.push(row);
+          }
+        }
+
+        const panel14 = document.getElementById('panel14');
+        if (items14.length === 0) {
+          panel14.innerHTML = '<div class="empty-state">No data yet. Hit Refresh to check availability.</div>';
+        } else {
+          // Sort: available first, then by date, then route
+          items14.sort((a, b) => b.available - a.available || a.date_of_travel.localeCompare(b.date_of_travel) || a.route.localeCompare(b.route));
+          panel14.innerHTML = items14.map(renderFlightRow).join('');
+        }
+
+        // Update last-checked timestamp
+        const lastRes = await fetch('/api/last-check');
+        const lastJson = await lastRes.json();
+        if (lastJson.ok && lastJson.last_check) {
+          const d = new Date(lastJson.last_check + 'Z');
+          document.getElementById('lastUpdated').textContent =
+            'Last updated: ' + d.toLocaleString();
+        } else {
+          document.getElementById('lastUpdated').textContent = 'No checks yet';
+        }
+
+      } catch (err) {
+        console.error('Failed to load data:', err);
+        document.getElementById('panel355').innerHTML =
+          '<div class="empty-state">Failed to load data</div>';
+        document.getElementById('panel14').innerHTML =
+          '<div class="empty-state">Failed to load data</div>';
+      }
+    }
+
+    async function triggerScrape() {
+      const btn = document.getElementById('refreshBtn');
+      btn.disabled = true;
+      btn.textContent = 'Checking...';
+
+      try {
+        const res = await fetch('/api/check', {
+          method: 'POST',
+          headers: { 'x-api-key': 'kande2026' },
+        });
+        const json = await res.json();
+        if (json.ok) {
+          btn.textContent = 'Scrape running...';
+          // Poll for new results after a delay
+          setTimeout(() => {
+            loadData();
+            btn.textContent = 'Refresh Availability';
+            btn.disabled = false;
+          }, 60000);
+        } else {
+          alert('Error: ' + json.error);
+          btn.textContent = 'Refresh Availability';
+          btn.disabled = false;
+        }
+      } catch (err) {
+        alert('Failed to trigger scrape');
+        btn.textContent = 'Refresh Availability';
+        btn.disabled = false;
+      }
+    }
+
+    // Initial load
+    loadData();
+
+    // Auto-refresh every 30 minutes
+    setInterval(loadData, 30 * 60 * 1000);
+  </script>
+</body>
+</html>
