@@ -1,0 +1,365 @@
+{
+  "updated_at": "2026-04-20T11:44:28.796Z",
+  "results": [
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2027-04-10",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:52",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-04-27",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:53",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-04-28",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:54",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-04-29",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:55",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-04-30",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:56",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-05-01",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:57",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-05-02",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:58",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-05-03",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:43:59",
+      "source": "none"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH 175",
+      "date_of_travel": "2026-05-04",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:00",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2027-04-10",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:01",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-04-27",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:02",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-04-28",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:03",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-04-29",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:04",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-04-30",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:05",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-05-01",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:06",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-05-02",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:07",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-05-03",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:08",
+      "source": "none"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH 106",
+      "date_of_travel": "2026-05-04",
+      "cabin_class": "First Class",
+      "available": 0,
+      "suite_product": 0,
+      "checked_at": "2026-04-20 11:44:09",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2027-04-10",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:10",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-04-27",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:11",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-04-28",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:12",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-04-29",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:13",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-04-30",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:14",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-05-01",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:15",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-05-02",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:16",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-05-03",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:17",
+      "source": "none"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH 7",
+      "date_of_travel": "2026-05-04",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:18",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2027-04-10",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:19",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-04-27",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:20",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-04-28",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:21",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-04-29",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:22",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-04-30",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:23",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-05-01",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:24",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-05-02",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:25",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-05-03",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:26",
+      "source": "none"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH 9",
+      "date_of_travel": "2026-05-04",
+      "cabin_class": "The Suite",
+      "available": 0,
+      "suite_product": 1,
+      "checked_at": "2026-04-20 11:44:27",
+      "source": "none"
+    }
+  ]
+}
