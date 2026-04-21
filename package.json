@@ -1,7 +1,7 @@
 {
   "name": "ana-first-class-tracker",
   "version": "1.0.0",
-  "description": "ANA First Class award availability tracker",
+  "description": "ANA First Class award availability tracker via Firecrawl",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "express": "^4.21.0",
-    "node-cron": "^3.0.3",
-    "playwright": "^1.44.0"
+    "node-cron": "^3.0.3"
   }
 }
