@@ -44,6 +44,22 @@ app.get('/api/availability/:route', (req, res) => {
   res.json({ ok: true, data: rows });
 });
 
+// POST /api/push — accept scraped data from Mac Mini (bypasses Railway Firecrawl issues)
+app.post('/api/push', express.json({ limit: '10mb' }), (req, res) => {
+  const key = req.headers['x-api-key'];
+  if (key !== API_KEY) return res.status(401).json({ ok: false, error: 'Unauthorized' });
+  try {
+    const payload = req.body;
+    if (!payload || !payload.lastChecked) return res.status(400).json({ ok: false, error: 'Missing lastChecked' });
+    fs.mkdirSync(path.join(__dirname, 'data'), { recursive: true });
+    fs.writeFileSync(JSON_FILE, JSON.stringify(payload, null, 2));
+    console.log('[push] Data received from Mac Mini:', payload.lastChecked, '| records:', (payload.all||[]).length);
+    res.json({ ok: true, received: (payload.all||[]).length });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
+  }
+});
+
 // POST /api/check — trigger manual scrape
 app.post('/api/check', async (req, res) => {
   const key = req.headers['x-api-key'];

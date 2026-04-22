@@ -182,6 +182,7 @@ async function runScraper() {
     };
     fs.writeFileSync(JSON_FILE, JSON.stringify(payload, null, 2));
     console.log(`[scraper] Done. Checked ${results.length} combos. Available: ${payload.available.length}`);
+    await pushToRailway(payload);
     return results;
 
   } catch (err) {
@@ -199,7 +200,33 @@ async function runScraper() {
   }
 }
 
-module.exports = { runScraper };
+// Push results to Railway after local scrape
+async function pushToRailway(payload) {
+  const RAILWAY_URL = 'https://kurtis.kandedash.com/api/push';
+  const API_KEY = 'kande2026';
+  // Strip calendarMarkdown to keep payload small + avoid control chars
+  const clean = Object.assign({}, payload, { calendarMarkdown: undefined });
+  delete clean.calendarMarkdown;
+  const body = JSON.stringify(clean);
+  return new Promise((resolve) => {
+    const options = {
+      hostname: 'kurtis.kandedash.com',
+      path: '/api/push',
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-api-key': API_KEY, 'Content-Length': Buffer.byteLength(body) },
+    };
+    const req = https.request(options, (res) => {
+      let d = '';
+      res.on('data', c => d += c);
+      res.on('end', () => { console.log('[scraper] Railway push:', d.slice(0,80)); resolve(); });
+    });
+    req.on('error', (e) => { console.error('[scraper] Railway push failed:', e.message); resolve(); });
+    req.write(body);
+    req.end();
+  });
+}
+
+module.exports = { runScraper, pushToRailway };
 
 if (require.main === module) {
   runScraper().catch(console.error);
