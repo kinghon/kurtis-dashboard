@@ -11,6 +11,13 @@ const JSON_FILE = path.join(__dirname, 'data', 'availability.json');
 // Ensure data directory exists
 fs.mkdirSync(path.join(__dirname, 'data'), { recursive: true });
 
+// On startup, run scraper immediately if no data exists
+if (!fs.existsSync(JSON_FILE) || (() => { try { const d = JSON.parse(fs.readFileSync(JSON_FILE,'utf8')); return !d.lastChecked; } catch(e) { return true; } })()) {
+  console.log('[startup] No data found — running scraper immediately');
+  const { runScraper } = require('./scraper');
+  setTimeout(() => runScraper().catch(err => console.error('[startup scraper error]', err.message)), 2000);
+}
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
