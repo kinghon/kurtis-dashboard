@@ -397,7 +397,7 @@
         const lastRes = await fetch('/api/last-check');
         const lastJson = await lastRes.json();
         if (lastJson.ok && lastJson.last_check) {
-          const d = new Date(lastJson.last_check + 'Z');
+          const d = new Date(lastJson.last_check);
           document.getElementById('lastUpdated').textContent =
             'Last updated: ' + d.toLocaleString();
         } else {
