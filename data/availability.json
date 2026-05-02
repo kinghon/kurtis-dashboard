@@ -1,28 +1,17 @@
 {
-  "lastChecked": "2026-05-01T19:04:33.145Z",
+  "lastChecked": "2026-05-02T07:02:37.980Z",
   "totalChecked": 36,
   "available": [
     {
       "route": "LAX-HND",
       "flight_number": "NH175",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "The Suite / First",
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "LAX-HND",
-      "flight_number": "NH175",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "The Suite / First",
-      "available": 1,
-      "suite_product": 1,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "LAX-HND",
@@ -32,7 +21,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -43,7 +32,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -54,7 +43,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -65,7 +54,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -76,7 +65,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -87,7 +76,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -98,30 +87,30 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH175",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "The Suite / First",
+      "available": 1,
+      "suite_product": 1,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
       "route": "LAX-NRT",
       "flight_number": "NH106",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "First Class",
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "LAX-NRT",
-      "flight_number": "NH106",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "First Class",
-      "available": 1,
-      "suite_product": 0,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "LAX-NRT",
@@ -131,7 +120,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -142,7 +131,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -153,7 +142,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -164,7 +153,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -175,7 +164,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -186,7 +175,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -197,30 +186,30 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH106",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "First Class",
+      "available": 1,
+      "suite_product": 0,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
       "route": "SFO-HND",
       "flight_number": "NH7",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "The Suite / First",
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "SFO-HND",
-      "flight_number": "NH7",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "The Suite / First",
-      "available": 1,
-      "suite_product": 1,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "SFO-HND",
@@ -230,7 +219,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -241,7 +230,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -252,7 +241,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -263,7 +252,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -274,7 +263,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -285,7 +274,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -296,30 +285,30 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH7",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "The Suite / First",
+      "available": 1,
+      "suite_product": 1,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
       "route": "JFK-NRT",
       "flight_number": "NH9",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "The Suite / First",
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "JFK-NRT",
-      "flight_number": "NH9",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "The Suite / First",
-      "available": 1,
-      "suite_product": 1,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "JFK-NRT",
@@ -329,7 +318,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -340,7 +329,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -351,7 +340,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -362,7 +351,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -373,7 +362,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -384,7 +373,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -395,7 +384,18 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH9",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "The Suite / First",
+      "available": 1,
+      "suite_product": 1,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     }
   ],
@@ -403,24 +403,13 @@
     {
       "route": "LAX-HND",
       "flight_number": "NH175",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "The Suite / First",
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "LAX-HND",
-      "flight_number": "NH175",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "The Suite / First",
-      "available": 1,
-      "suite_product": 1,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "LAX-HND",
@@ -430,7 +419,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -441,7 +430,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -452,7 +441,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -463,7 +452,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -474,7 +463,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -485,7 +474,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -496,30 +485,30 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "LAX-HND",
+      "flight_number": "NH175",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "The Suite / First",
+      "available": 1,
+      "suite_product": 1,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
       "route": "LAX-NRT",
       "flight_number": "NH106",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "First Class",
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "LAX-NRT",
-      "flight_number": "NH106",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "First Class",
-      "available": 1,
-      "suite_product": 0,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "LAX-NRT",
@@ -529,7 +518,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -540,7 +529,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -551,7 +540,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -562,7 +551,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -573,7 +562,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -584,7 +573,7 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -595,30 +584,30 @@
       "available": 1,
       "suite_product": 0,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "LAX-NRT",
+      "flight_number": "NH106",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "First Class",
+      "available": 1,
+      "suite_product": 0,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
       "route": "SFO-HND",
       "flight_number": "NH7",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "The Suite / First",
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "SFO-HND",
-      "flight_number": "NH7",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "The Suite / First",
-      "available": 1,
-      "suite_product": 1,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "SFO-HND",
@@ -628,7 +617,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -639,7 +628,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -650,7 +639,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -661,7 +650,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -672,7 +661,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -683,7 +672,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -694,30 +683,30 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "SFO-HND",
+      "flight_number": "NH7",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "The Suite / First",
+      "available": 1,
+      "suite_product": 1,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
       "route": "JFK-NRT",
       "flight_number": "NH9",
-      "date_of_travel": "2027-04-21",
+      "date_of_travel": "2027-04-22",
       "cabin_class": "The Suite / First",
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "355day"
-    },
-    {
-      "route": "JFK-NRT",
-      "flight_number": "NH9",
-      "date_of_travel": "2026-05-08",
-      "cabin_class": "The Suite / First",
-      "available": 1,
-      "suite_product": 1,
-      "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
-      "window": "14day"
     },
     {
       "route": "JFK-NRT",
@@ -727,7 +716,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -738,7 +727,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -749,7 +738,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -760,7 +749,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -771,7 +760,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -782,7 +771,7 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     },
     {
@@ -793,7 +782,18 @@
       "available": 1,
       "suite_product": 1,
       "source": "ana-calendar",
-      "checked_at": "2026-05-01T19:04:33.145Z",
+      "checked_at": "2026-05-02T07:02:37.980Z",
+      "window": "14day"
+    },
+    {
+      "route": "JFK-NRT",
+      "flight_number": "NH9",
+      "date_of_travel": "2026-05-16",
+      "cabin_class": "The Suite / First",
+      "available": 1,
+      "suite_product": 1,
+      "source": "ana-calendar",
+      "checked_at": "2026-05-02T07:02:37.980Z",
       "window": "14day"
     }
   ],
